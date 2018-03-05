@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>8KM 搬家公司</title>
+		<link rel="stylesheet" href="../css/lib/mui.min.css" />
+		<link rel="stylesheet" href="../css/lib/icons-extra.css" />
+		<link rel="stylesheet" href="../css/lib/mui.picker.min.css" />
+		<link rel="stylesheet" href="../css/lib/mui-new.css" />
+		<link rel="stylesheet" href="../css/app/perSonal-page.css" />
+	</head>
+	<body id="app">
+		 <header class="mui-bar mui-bar-nav index-header">
+            <a class="mui-pull-left" href="../index.html"></a>
+        </header>
+        
+        
+		    
+		<nav class="mui-bar mui-bar-tab">
+		    <a id="previousPage" href="javascript:;" class="mui-tab-item">
+		        <span class="mui-tab-label">上一页</span>
+		    </a>
+		    
+		    
+		    <a id="submitPage" href="javascript:;" class="mui-tab-item">
+		        <span class="mui-tab-label">提交</span>
+		    </a>
+		    
+		    
+		    <a id="nextPage" href="javascript:;" class="mui-tab-item">
+		        <span class="mui-tab-label">下一页</span>
+		    </a>
+		</nav>
+        
+		<div class="mui-content">
+			<div class="order-bar">
+				<p class="mui-text-center">免费发布请求，轻松搞定搬家
+					<span class="mui-icon mui-icon-pulldown"></span>
+				</p>
+			</div>
+				
+			<div id="typeProblem" class="mui-control-content mui-active">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>您的空调属于什么类型？-单选<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-list">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="typeRadio" type="radio" value="挂壁式"><span>挂壁式</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="typeRadio" type="radio" value="立体式"><span>立体式</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="typeRadio" type="radio" value="嵌入式"><span>嵌入式</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+				
+			<div id="onfloorProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>您所住的楼层是？-单选<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-list">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="onfloorRadio" type="radio" value="1-6层"><span>1-6层</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="onfloorRadio" type="radio" value="6-10层"><span>6-10层</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="onfloorRadio" type="radio" value="10层以上"><span>10层以上</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+				
+			<div id="tofloorProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>您所迁往的楼层是？-单选<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-list">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="tofloorRadio" type="radio" value="1-6层"><span>1-6层</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="tofloorRadio" type="radio" value="6-10层"><span>6-10层</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="tofloorRadio" type="radio" value="10层以上"><span>10层以上</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+					
+			<div id="ispersonalProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>您的服务是针对个人/公司？-单选<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-list">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="ispersonalRadio" type="radio" value="个人"><span>个人</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="ispersonalRadio" type="radio" value="公司"><span>公司</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+			
+			<div id="additionalProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>您是否需要额外的服务？-单选<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-list">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="additionalRadio" type="radio" value="空调清洗"><span>空调清洗</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="additionalRadio" type="radio" value="空调维修"><span>空调维修</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="additionalRadio" type="radio" value="空调加液"><span>空调加液</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="additionalRadio" type="radio" value="不需要"><span>不需要</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+					
+			<div id="horsesProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>您的空调匹数是？-单选<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-list">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="horsesRadio" type="radio" value="1P（约8-14㎡）"><span>1P（约8-14㎡）</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="horsesRadio" type="radio" value="1.5P（约12-23㎡）"><span>1.5P（约12-23㎡）</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="horsesRadio" type="radio" value="2P（约21-34㎡）"><span>2P（约21-34㎡）</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="horsesRadio" type="radio" value="2.5P（约27-42㎡）"><span>2.5P（约27-42㎡）</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="horsesRadio" type="radio" value="3P（约32-50㎡）"><span>3P（约32-50㎡）</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="horsesRadio" type="radio" value="5P（约46-70㎡）"><span>5P（约46-70㎡）</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+				
+			<div id="timeProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>您理想的服务时间是？-单选<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-list">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="timeRadio" type="radio" value="越快越好"><span>越快越好</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="timeRadio" type="radio" value="三天以内"><span>三天以内</span>
+									</li>
+									<li class="mui-table-view-cell mui-radio mui-left">
+										<input name="timeRadio" type="radio" value="一周以内"><span>一周以内</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+				
+			<div id="addressProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>请告诉我们您的大概位置，以便我们提供服务<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-input">
+						        <div class="mui-input-row setOutInput">
+						        	<input type="text" class="mui-input-clear" placeholder="请输入您的出发地">
+						        </div>
+						        <div class="mui-input-row DestinationInput">
+						        	<input type="text" class="mui-input-clear" placeholder="请输入您的目的地">
+						        </div>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+			
+			<div id="phoneProblem" class="mui-control-content">
+				<div class="mui-scroll-wrapper">
+				    <div class="mui-scroll">
+				        <div class="orderContent">
+							<div class="currentTitle">
+								<p>我们如何联系到您？<span>(必填)</span></p>
+							</div>
+							
+							<div class="currentProblem-input mui-input-row">
+						        <input type="text" class="mui-input-clear" placeholder="请输入您的手机号码">
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/lib/mui.min.js"></script>
+	<script src="../js/lib/mui.picker.min.js"></script>
+	<script src="../js/lib/jquery.min.js"></script>
+	<script src="../js/lib/vue.js"></script>
+	<script src="../js/app/public.js"></script>
+	<script src="../js/app/air-conDitioning.js"></script>
+</html>

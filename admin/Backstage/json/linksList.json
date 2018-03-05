@@ -1,0 +1,36 @@
+[{
+    "movingName" : "姓名",
+    "movingType" : "个人搬家",
+    "movingDate" : "顾客理想搬家时间",
+    "movingSetOut" : "出发地",
+    "movingDestination" : "目的地",
+    "movingDetails" : "订单详情"
+},{
+    "movingName" : "姓名2",
+    "movingType" : "个人搬家2",
+    "movingDate" : "顾客理想搬家时间2",
+    "movingSetOut" : "出发地2",
+    "movingDestination" : "目的地2",
+    "movingDetails" : "订单详情2"
+},{
+    "movingName" : "姓名2",
+    "movingType" : "个人搬家2",
+    "movingDate" : "顾客理想搬家时间2",
+    "movingSetOut" : "出发地2",
+    "movingDestination" : "目的地2",
+    "movingDetails" : "订单详情2"
+},{
+    "movingName" : "姓名2",
+    "movingType" : "个人搬家2",
+    "movingDate" : "顾客理想搬家时间2",
+    "movingSetOut" : "出发地2",
+    "movingDestination" : "目的地2",
+    "movingDetails" : "订单详情2"
+},{
+    "movingName" : "姓名2",
+    "movingType" : "个人搬家2",
+    "movingDate" : "顾客理想搬家时间2",
+    "movingSetOut" : "出发地2",
+    "movingDestination" : "目的地2",
+    "movingDetails" : "订单详情2"
+}]

@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+}
+
+.index-header{
+	background-color: #4c78eb;
+	height: 4.083041487rem;
+    line-height: 4.083041487rem;
+    vertical-align: middle;
+}
+
+.index-header>a{
+	display: block;
+	width: 140px;
+	height: 38px;
+	margin-top: 14px;
+	background-image: url(../../img/logo2.png);
+	background-size: 100%;
+}
+
+.mui-content,.mui-control-content{
+	height: 100%;
+}
+
+.mui-content{
+	overflow: hidden;
+}
+
+.mui-scroll-wrapper{
+	height: auto;
+}
+
+.mui-scroll{
+	padding-bottom: 3.788389009rem;
+}
+
+.mui-bar-nav~.mui-content{
+	padding-top: 65px;
+}
+
+
+
+
+.order-bar{
+	height: 3.788389009rem;
+    line-height: 3.788389009rem;
+    background: #ffa53b;
+}
+
+.order-bar>p{
+	color: #ffffff;
+    font-size: 1.227858971rem;
+}
+
+.order-bar>p>span{
+	border-radius: 50px;
+	border: 1px solid #fff;
+}
+
+.orderContent{
+	padding: 30px 15px;
+}
+
+.currentTitle{
+	margin-bottom: 15px;
+}
+
+.currentTitle>p{
+	color: #4a4949;
+	font-size: 1.2rem;
+}
+
+.currentTitle>p>span{
+	color: #0090ec;
+    font-size: 0.86rem;
+    padding-left: 10px;
+}
+
+
+
+
+
+.currentProblem-wrap>ul>li{
+	list-style: none;
+	background-color: #fff;
+	border-radius: 7px;
+	border: 1px solid #eee;
+}
+
+.currentProblem-wrap>ul>li>a{
+	display: block;
+	min-height: 90px;
+	padding: 15px;
+	position: relative;
+}
+
+.currentProblem-wrap>ul>li+li{
+	margin-top: 10px;
+}
+
+.currentProblem-text{
+	margin-left: 90px;
+	height: 20px;
+	background: #000;
+}
+
+.Problem-title{
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	left: 15px;
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 50px;
+	line-height: 60px;
+}
+
+.Problem-title>span{
+    display: block;
+    text-align: center;
+	font-size: 0.876801589rem;
+    line-height: 1.2;
+    height: 32px;
+    margin-top: 14px;
+    color: #ffffff;
+}
+
+.Problem-text{
+	margin-left: 75px;
+}
+
+
+
+.problemTextTitle span,.problemTextMidle p{
+	font-size: 13px;
+	letter-spacing: -2px;
+}
+
+.problemTextTitle{
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+.problemTextMidle{
+	color: #8e8e8e;
+	line-height: 1;
+}
+
+.Problem-radio input{
+	display: none;
+}
+
+.Problem-radio span{
+	display: block;
+	width: 24px;
+	height: 24px;
+	font-weight: bold;
+	border: 1px solid #eee;
+	border-radius: 50px;
+}
+
+.Problem-radio{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+
+nav>a>span{
+	color: #007AFF;
+}
+
+nav.mui-bar-tab{
+	background-color: #E2E2E2;
+}
+
+.currentProblem-list li.mui-radio input[type=radio]:checked:before{
+	color: #CB7608;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.currentProblem-list li.mui-radio input[type=radio]:before{
+	font-size: 16px;
+	line-height: 1.7;
+	color: #000;
+}
+
+.currentProblem-list li>span{
+	font-size: 14px;
+}
+
+.currentProblem-list li>input[type=radio]:checked+span{
+	font-size: 14px;
+	color: #CB7608;
+}
+
+.mui-table-view-cell:after{
+	left: 0;
+	height: 2px;
+}
+
+
+
+.currentProblem-input input{
+	background-color: #fff;
+}

@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#auto{
+	width: 382px;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 150px;
+}
+#auto>h3{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.text_c{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.text_c>div{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #DDDDDD;
+	margin-top: 20px;
+	
+}
+.text_c>div>span{
+	font-size: 15px;
+	color: black;
+	font-family: "微软雅黑";
+	line-height: 50px;
+	margin-left: 7px;
+}
+.text_c>div>input{
+	float: right;
+	width: 70%;
+	height: 30px;
+	margin-right: 3%;
+	margin-top: 7px;
+}
+#add_don{
+	width: 26%;
+	height: 50px;
+	background-color: #37B5F9;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 37%;
+	margin-bottom: 20px;
+	border: none;
+}
+

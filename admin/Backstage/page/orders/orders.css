@@ -1,0 +1,25 @@
+
+.layui-table{
+    width: 600px;
+    margin: auto;
+}
+
+.layui-table th , .layui-table{
+    text-align: center!important;
+    color: #000;
+}
+
+.layui-table th {
+    background-color: #e8e8e8;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #5d5d5d;
+}
+
+.layui-table td .layui-btn:first-child{
+    float: left;
+    width: 45%;
+}.layui-table td .layui-btn:last-child{
+    float: right;
+    width: 45%;
+}

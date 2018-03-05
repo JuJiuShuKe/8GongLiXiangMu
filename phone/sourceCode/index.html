@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>8KM 搬家公司</title>
+		<link rel="stylesheet" href="./css/lib/mui.min.css" />
+		<link rel="stylesheet" href="./css/lib/icons-extra.css" />
+		<link rel="stylesheet" href="./css/lib/mui.picker.min.css" />
+		<link rel="stylesheet" href="./css/lib/mui-new.css" />
+		<link rel="stylesheet" href="./css/app/index.css" />
+	</head>
+	<body>
+	    <!-- 侧滑导航根容器 -->
+	    <div class="mui-off-canvas-wrap mui-draggable">
+	        <!-- 主页面容器 -->
+	        <div class="mui-inner-wrap">
+	            <!-- 菜单容器 -->
+	            <aside class="mui-off-canvas-left" id="offCanvasSide">
+	            	<nav class="mui-bar mui-bar-tab">
+		        	    <a class="mui-tab-item mui-text-left" href="#inforsetUp">
+		        	        <span class="mui-icon mui-icon-gear"></span>
+		        	        <span class="mui-tab-label">设置</span>
+		        	    </a>
+		        	</nav>
+	            	
+	            	<div class="offInfaomation">
+                   		<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="./img/Photos/Pt-32.jpg">
+									<div class="mui-media-body">
+										<p id="offHeadNickname" class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+                   	</div>
+                   	
+	                <div class="mui-scroll-wrapper">
+	                    <div class="mui-scroll">
+	                        <!-- 菜单具体展示内容 -->
+	                       	
+	                       	<div class="offInformationList">
+	                       		<div class="orderDetails">
+									<h5>订单目录</h5>
+								</div>
+	                       		
+	                       		<ul class="mui-table-view" id="orderList">
+									<p style="padding-left: 15px;padding-top: 40px;">没有记录</p>
+	                       		</ul>
+	                       	
+	                       	</div>
+	                       	
+	                    </div>
+	                </div>
+	            </aside>
+	            <!-- 主页面标题 -->
+	            <header class="mui-bar mui-bar-nav index-header">
+	                <a class=" mui-action-menu  mui-pull-left" href="#offCanvasSide"></a>
+	            </header>
+	           
+	           	<!-- 主页面内容容器 -->
+	            <div class="mui-content mui-scroll-wrapper">
+	                <div class="mui-scroll">
+	                    <!-- 主界面具体展示内容 -->
+	                    <div id="slider" class="mui-slider" >
+	                      <div class="mui-slider-group mui-slider-loop">
+	                        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+	                        <div class="mui-slider-item mui-slider-item-duplicate">
+	                          <a href="#">
+	                            <img src="img/Carousel-2.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 第一张 -->
+	                        <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="img/Carousel-1.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 第二张 -->
+	                        <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="img/Carousel-2.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+	                        <div class="mui-slider-item mui-slider-item-duplicate">
+	                          <a href="#">
+	                            <img src="img/Carousel-1.jpg">
+	                          </a>
+	                        </div>
+	                      </div>
+	                      <div class="mui-slider-indicator">
+	                        <div class="mui-indicator mui-active"></div>
+	                        <div class="mui-indicator"></div>
+	                      </div>
+	                    </div>
+	                	
+	                	<div class="index-title">
+	                		<div class="indexTitlt-top mui-text-center">
+	                			<span>发布需求操作流程，仅需4步搞定！</span>
+	                		</div>
+	                		<div class="indexTitlt-body">
+	                			<img src="img/index-title.png" alt="未加载" />
+	                		</div>
+	                	</div>
+	                	
+	                	<div class="index-body">
+	                		<div class="indexBody-title mui-text-center">
+	                			<span>搬家服务</span>
+	                		</div>
+	                		
+	                		<div class="indexBody-slider">
+	                			
+	                			 <div class="mui-row">
+							        <div class="mui-col-sm-12 mui-col-xs-12">
+							            <div id="perSonal-moving" class="indexSliderModular mui-pull-center">
+							            	<a href="./orderPage/perSonal-page.html">
+							            		<div class="ModularTitle">
+								           	 		<p class="mui-text-center">个人搬家</p>
+								            	</div>
+								            	
+								            	<div class="ModularIcon mui-text-center">
+								            		<span class="mui-icon-extra mui-icon-extra-express"></span>
+								            	</div>
+							            	</a>
+							            </div>
+							        </div>
+							    </div>
+	                			
+	                			<div class="mui-row">
+							        <div class="mui-col-sm-6 mui-col-xs-6">
+							            <div id="air-conDitioning" class="indexSliderModular mui-pull-center">
+							            	<a href="#">
+								            	<div class="ModularTitle">
+								            		<p class="mui-text-center">空调移机</p>
+								            	</div>
+								            	
+								            	<div class="ModularIcon mui-text-center">
+								            		<span class="mui-icon-extra mui-icon-extra-hotel"></span>
+								            	</div>
+							            	</a>
+							            </div>
+							        </div>
+							        <div class="mui-col-sm-6 mui-col-xs-6">
+							            <div id="freight-service" class="indexSliderModular mui-pull-center">
+							            	<a href="#">
+							            		<div class="ModularTitle">
+								            		<p class="mui-text-center">货运服务</p>
+								            	</div>
+								            	
+								            	<div class="ModularIcon mui-text-center">
+								            		<span class="mui-icon-extra mui-icon-extra-cart"></span>
+								            	</div>
+							            	</a>
+							            </div>
+							        </div>
+							    </div>
+	                			
+	                			 <div class="mui-row">
+							        <div class="mui-col-sm-6 mui-col-xs-6">
+							            <div id="longDistance-moving" class="indexSliderModular mui-pull-center">
+							            	<a href="#">
+							            		<div class="ModularTitle">
+								            		<p class="mui-text-center">长途搬家</p>
+								            	</div>
+								            	
+								            	<div class="ModularIcon mui-text-center">
+								            		<span class="mui-icon-extra mui-icon-extra-express"></span>
+								            	</div>
+							            	</a>
+							            </div>
+							        </div>
+							        <div class="mui-col-sm-6 mui-col-xs-6">
+							           <div id="comPany-moving" class="indexSliderModular mui-pull-center">
+								            <a href="#">
+								           		<div class="ModularTitle">
+								            		<p class="mui-text-center">公司搬家</p>
+								            	</div>
+								            	
+								            	<div class="ModularIcon mui-text-center">
+								            		<span class="mui-icon-extra mui-icon-extra-express"></span>
+								            	</div>
+								            </a>
+							           </div>
+							        </div>
+							    </div>
+	                			
+	                			
+	                		</div>
+	                	</div>
+	                	
+	                </div>
+	            </div>
+	            
+	       		<div class="mui-off-canvas-backdrop"></div>
+	        </div>
+	    </div>
+
+		<div id="inforsetUp" class="mui-popover mui-popover-bottom mui-popover-action ">
+		    <!-- 可选择菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="orderPage/editInformation.html">编辑信息</a>
+		      </li>
+		      <li class="mui-table-view-cell">
+		        <a href="login.html">退出登录</a>
+		      </li>
+		    </ul>
+		    <!-- 取消菜单 -->
+		    <ul class="mui-table-view">
+		      <li class="mui-table-view-cell">
+		        <a href="#inforsetUp"><b>取消</b></a>
+		      </li>
+		    </ul>
+		</div>
+	
+		
+	</body>
+	<script src="./js/lib/mui.min.js"></script>
+	<script src="./js/lib/mui.picker.min.js"></script>
+	<script src="./js/lib/jquery.min.js"></script>
+	<script src="./js/app/index.js"></script>
+</html>

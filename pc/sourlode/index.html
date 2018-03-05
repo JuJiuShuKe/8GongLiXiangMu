@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>八千米</title>
+	<link type="text/css" rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+	<div class="box">
+		<header class="head">
+			<div class="head_cen">
+				<div class="head_cen_left">
+					<img src="images/logo.png" alt="">
+				</div>
+				<div class="head_cen_right">
+					<a href="Details.html">订单详情</a>&emsp;&emsp;<span id="offHeadNickname"></span>&emsp;
+					<!-- <a href="javascript:;">修改资料</a> -->
+				</div>
+			</div>
+		</header>
+		<article class="central_section">
+			<div class="layui-carousel" id="test1">
+			 	<div carousel-item>
+				    <div>
+				   		<img src="images/carousela.jpg" alt="">
+				    </div>
+				    <div>
+				    	<img src="images/carouselb.jpg" alt="">
+				    </div>
+				    <div>
+				    	<img src="images/carouselc.jpg" alt="">
+				    </div>
+				  </div>
+			</div>
+			<div class="information">
+				<div class="indexBody-title">
+        			<span>发布需求操作流程，仅需4步搞定！</span>
+        		</div>
+        		<div class="process">
+					<img src="images/index-title.png" alt="">
+        		</div>
+        		<div class="information-data">
+        			<div>
+						<h1>36</h1>
+						<h3>全国分公司</h3>
+						<p>蚂蚁搬家公司全国覆盖网点</p>
+        			</div>
+        			<div>
+						<h1>99999</h1>
+						<h3>行业经验</h3>
+						<p>搬家配送经验积累，服务千万客户</p>
+        			</div>
+        			<div>
+						<h1>3000</h1>
+						<h3>搬家员工</h3>
+						<p>岗前培训考核，保证服务品质</p>
+        			</div>
+        		</div>
+			</div>
+			<div class="order_type">
+
+				<div class="order_type_title">
+					<h1>服务类型</h1>
+					<span>Moving Service</span>
+				</div>
+				<!-- <div class="movingvideo"><video width="100%" height="690" autoplay="autoplay" src="images/movingvideo.mp4""></div> -->
+				<div class="order_type_row">
+					<div class="cont1">
+						<a  id="click_order" href="javascript:;">
+							<h1>个人搬家</h1>
+							<div class="sign"></div>
+						</a>
+					</div>
+					<div class="cont2">
+						<a id="click_order1" href="javascript:;">
+							<h1>空调搬家</h1>
+							<div class="sign"></div>
+						</a>
+					</div>
+					<div class="cont3">
+						<a id="click_order2" href="javascript:;">
+							<h1>货运搬家</h1>
+							<div class="sign"></div>
+						</a>
+					</div>
+					<div class="cont2">
+						<a  id="click_order3" href="javascript:;">
+							<h1>公司搬家</h1>
+							<div class="sign"></div>
+						</a>
+					</div>
+					<div class="cont3">
+						<a id="click_order4" href="javascript:;">
+							<h1>长途搬家</h1>
+							<div class="sign"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</article>
+		<footer class="footer">
+			<div class="footer1">
+				<div class="contact">
+					<div>
+						<h1>Contact us</h1>
+						<p>联系我们</p>
+					</div>
+					<div>
+						<h1>全国投诉热线</h1>
+						<p>400-020-8181</p>
+					</div>
+					<div>
+						<h1>集团总部地址</h1>
+						<p>成都市高新区科园南二路6号</p>
+					</div>
+				</div>
+				<div class="contact1">
+					<ul>
+						<li>关于我们</li>
+						<li>全国网点</li>
+						<li>生活妙招</li>
+						<li>网站地图</li>
+						<li>工作机会</li>
+						<li>新手指南</li>
+					</ul>
+				</div>
+				<div class="contact2">
+					<ul>
+						<li>友情链接</li>
+						<li>同城货运</li>
+						<li>生活服务网</li>
+						<li>成都搬家公司</li>
+						<li>八千米新版</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<div class="ending">
+			<span>Copyright 1996-2016 All Rights Reserved ANT Group.成都蚂蚁搬家有限公司 蜀ICP备11007974号</span>
+		</div>
+	</div>
+
+				<div class="personal_move">
+				<div class="indexBody-title">
+        			<span>找个人搬家服务？</span>
+        		</div>
+        		<p>我们可以快速找到专业的个人搬家服务商，为此，我们需要知道您的具体要求：</p>
+        		<div class="all_options all_options1">
+					<div class="choice1">
+						<p id="moving">您搬家需要的车型是？</p>
+						<select id="models">
+							<option value="请选择">请选择</option>
+							<option value="面包车">面包车</option>
+							<option value="金杯">金杯</option>
+							<option value="平板车">平板车</option>
+							<option value="依维柯">依维柯</option>
+							<option value="箱货">箱货</option>
+							<option value="小型箱货">小型箱货</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p id="moving1">您是否需要人工搬运？</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="yesd" value="是，我需要。">
+							<span>是，我需要。</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="yesd" value="不，我不需要。">
+							<span>不，我不需要。</span>
+						</label>
+	        		</div>
+	        		<div class="choice1">
+						<p id="moving2">您要搬出的地方有电梯吗？</p>
+						<select id="move_out">
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p id="moving3">您要搬去的地方有电梯吗？</p>
+						<select id="move_to">
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p id="moving4">您理想的搬家时间是什么时候</p>
+						<select id="moving_time">
+							<option value="请选择">请选择</option>
+							<option value="越快越好">越快越好</option>
+							<option value="一周以内">一周以内</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p id="moving5">您的出发地？</p>
+						<input id="place_out" type="text" placeholder="出发地">
+	        		</div>
+	        		<div class="choice1">
+						<p id="moving6">您的目的地是？</p>
+						<input id="place_to" type="text" placeholder="目的地">
+	        		</div>
+	        		<div class="choice1 choicel">
+						<p id="moving7">我们如何联系您？</p>
+						<input id="phone_number" type="number" placeholder="请输入电话号码">
+	        		</div>
+	        		<div class="choice1">
+						<a id="place_order" href="javascript:;">提&emsp;交</a>
+	        		</div>
+        		</div>
+			</div>
+			<div class="personal_move1">
+				<div class="indexBody-title">
+        			<span>找空调移机服务？</span>
+        		</div>
+        		<p>我们可以快速找到专业的个人搬家服务商，为此，我们需要知道您的具体要求：</p>
+        		<div class="all_options">
+					<div class="choice1">
+						<p class="movinge">您的空调属于什么类型？</p>
+						<select id="models1">
+							<option value="请选择">请选择</option>
+							<option value="挂壁式">挂壁式</option>
+							<option value="立体式">立体式</option>
+							<option value="嵌入式">嵌入式</option>
+						</select>	
+	        		</div>
+	        			<div class="choice1">
+						<p class="movinge1">您要搬出的地方有电梯吗？</p>
+						<select id="move_out1">
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movinge2">您要搬去的地方有电梯吗？</p>
+						<select id="move_to1">
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1" id="radvaled">
+						<p class="movinge3">您的服务针对个人还是公司？</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="yesd" value="个人">
+							<span>个人</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="yesd" value="公司">
+							<span>公司</span>
+						</label>
+	        		</div>
+	        		<div class="choice1" id="checkbox1">
+						<p class="movinge4">您是否需要额外的服务？</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="option" value="空调清洗">
+							<span>空调清洗</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="option" value="空调维修">
+							<span>空调维修</span>
+						</label>
+						<label style="margin-right:32px">
+							<input type="radio" id="no" name="option" value="空调加液">
+							<span>空调加液</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="option" value="不需要">
+							<span>不需要</span>
+						</label>
+	        		</div>
+	        		<div class="choice1">
+						<p class="movinge5">您的空调匹数是？</p>
+						<select id="conditioner_number1">
+							<option value="请选择">请选择</option>
+							<option value="1P（约8-14㎡）">1P（约8-14㎡）</option>
+							<option value="1.5P（约12-23㎡）">1.5P（约12-23㎡）</option>
+							<option value="2P（约21-34㎡">2P（约21-34㎡）</option>
+							<option value="2.5P（约27-42㎡）">2.5P（约27-42㎡）</option>
+							<option value="3P（约32-50㎡）">3P（约32-50㎡）</option>
+							<option value="5P（约46-70㎡）">5P（约46-70㎡）</option>
+						</select>	
+	        		</div>
+	        		  <div class="choice1">
+						<p class="movinge6">您理想的服务时间</p>
+						<select id="moving_time1">
+							<option value="请选择">请选择</option>
+							<option value="越快越好">越快越好</option>
+							<option value="一周以内">一周以内</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movinge7">您的出发地是？</p>
+						<input id="place_out1" type="text" placeholder="出发地">
+	        		</div>
+	        		<div class="choice1">
+						<p class="movinge8">您的目的地是？</p>
+						<input id="place_to1" type="text" placeholder="目的地">
+	        		</div>
+	        		<div class="choice1 choicel">
+						<p class="movinge9">我们如何联系您？</p>
+						<input id="phone_number1" type="number" placeholder="请输入电话号码">
+	        		</div>
+	        		<div class="choice1">
+						<a id="place_order1" href="javascript:;">提&emsp;交</a>
+	        		</div>
+        		</div>
+			</div>
+			<div class="personal_move2">
+				<div class="indexBody-title">
+        			<span>找货运服务？</span>
+        		</div>
+        		<p>我们可以快速找到专业的个人搬家服务商，为此，我们需要知道您的具体要求：</p>
+        		<div class="all_options">
+					<div class="choice1">
+						<p class="need">您搬家需要的车型是？</p>
+						<select class="models">
+							<option value="请选择">请选择</option>
+							<option value="面包车">面包车</option>
+							<option value="金杯">金杯</option>
+							<option value="平板车">平板车</option>
+							<option value="依维柯">依维柯</option>
+							<option value="箱货">箱货</option>
+							<option value="小型箱货">小型箱货</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="need1">您是否需要人工搬运？</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="yesd" value="是，我需要。">
+							<span>是，我需要。</span>
+						</label>
+						
+						<label>
+							<input type="radio" id="no" name="yesd" value="不，我不需要。">
+							<span>不，我不需要。</span>
+						</label>
+	        		</div>
+	        		<div class="choice1">
+						<p class="need2">您理想的搬家时间是什么时候</p>
+						<select class="moving_time">
+							<option value="请选择">请选择</option>
+							<option value="越快越好">越快越好</option>
+							<option value="一周以内">一周以内</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="need3">您的出发地是？</p>
+						<input class="place_out" type="text" placeholder="出发地">
+	        		</div>
+	        		<div class="choice1">
+						<p class="need4">您的目的地是？</p>
+						<input class="place_to" type="text" placeholder="目的地">
+	        		</div>
+	        		<div class="choice1 choicel">
+						<p class="need5">我们如何联系您？</p>
+						<input class="phone_number" type="number" placeholder="请输入电话号码">
+	        		</div>
+	        		<div class="choice1">
+						<a id="place_order2" href="javascript:;">提&emsp;交</a>
+	        		</div>
+        		</div>
+			</div>
+			<div class="personal_move3">
+				<div class="indexBody-title">
+        			<span>找公司搬家服务？</span>
+        		</div>
+        		<p>我们可以快速找到专业的个人搬家服务商，为此，我们需要知道您的具体要求：</p>
+        		<div class="all_options">
+					<div class="choice1 personal_company">
+						<p class="movingc">您属于企业搬家还是工厂搬迁</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="yesd" value="企业">
+							<span>企业</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="yesd" value="工厂">
+							<span>工厂</span>
+						</label>	
+	        		</div>
+	        		<div class="choice1 additional" id="checkbox1">
+						<p class="movingc1">您是否需要额外的服务？</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="option" value="物品打包">
+							<span>物品打包</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="option" value="办公家具拆卸组装">
+							<span>办公家具拆卸组装</span>
+						</label>
+						<label style="margin-right:32px">
+							<input type="radio" id="no" name="option" value="大型设备搬运">
+							<span>大型设备搬运</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="option" value="不需要">
+							<span>不需要</span>
+						</label>
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingc2">您搬运的物件中是否含有易碎品</p>
+						<select class="fragile_articles">
+							<option value="请选择">请选择</option>
+							<option value="不包含">不包含</option>
+							<option value="包含">包含</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingc3">您要搬出的地方有电梯吗？</p>
+						<select class="move_out">
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingc4">您要搬去的地方有电梯吗？</p>
+						<select class="move_to">
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingc5">您理想的服务时间</p>
+						<select class="moving_time">
+							<option value="请选择">请选择</option>
+							<option value="越快越好">越快越好</option>
+							<option value="一周以内">一周以内</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingc6">您的出发地是？</p>
+						<input class="place_out1" type="text" placeholder="出发地">
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingc7">您的目的地是？</p>
+						<input class="place_to1" type="text" placeholder="目的地">
+	        		</div>
+	        		<div class="choice1 choicel">
+						<p class="movingc8">我们如何联系您？</p>
+						<input class="phone_number1" type="number" placeholder="请输入电话号码">
+	        		</div>
+	        		<div class="choice1">
+						<a id="place_order3" href="javascript:;">提&emsp;交</a>
+	        		</div>
+        		</div>
+			</div>
+			<div class="personal_move4">
+				<div class="indexBody-title">
+        			<span>找长途搬家搬运服务？</span>
+        		</div>
+        		<p>我们可以快速找到专业的个人搬家服务商，为此，我们需要知道您的具体要求：</p>
+        		<div class="all_options">
+					<div class="choice1 personal_company11">
+						<p class="movingp">您是个人搬家还是公司搬迁</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="yesd" value="个人">
+							<span>个人</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="yesd" value="公司">
+							<span>公司</span>
+						</label>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingp1">您要搬出的地方有电梯吗？</p>
+						<select class="move_out1"> 
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingp2">您要搬去的地方有电梯吗？</p>
+						<select class="move_to1">
+							<option value="请选择">请选择</option>
+							<option value="有电梯">有电梯</option>
+							<option value="1-3F">1-3F</option>
+							<option value="4-8F">4-8F</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1 additional1" id="checkbox1">
+						<p class="movingp3">您是否需要额外的服务？</p>
+						<label style="margin-right:32px">
+							<input type="radio" id="yes" name="option" value="物品打包">
+							<span>物品打包</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="option" value="空调移机">
+							<span>空调移机</span>
+						</label>
+						<label style="margin-right:32px">
+							<input type="radio" id="no" name="option" value="贵重物品搬运">
+							<span>贵重物品搬运</span>
+						</label>
+						<label>
+							<input type="radio" id="no" name="option" value="不需要">
+							<span>不需要</span>
+						</label>
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingp4">您理想的服务时间</p>
+						<select class="moving_time1">
+							<option value="请选择">请选择</option>
+							<option value="越快越好">越快越好</option>
+							<option value="一周以内">一周以内</option>
+						</select>	
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingp5">您的出发地是？</p>
+						<input class="place_out2" type="text" placeholder="出发地">
+	        		</div>
+	        		<div class="choice1">
+						<p class="movingp6">您的目的地是？</p>
+						<input class="place_to2" type="text" placeholder="出发地">
+	        		</div>
+	        		<div class="choice1 choicel">
+						<p class="movingp7">我们如何联系您？</p>
+						<input class="phone_number2" type="number" placeholder="请输入电话号码">
+	        		</div>
+	        		<div class="choice1">
+						<a id="place_order4" href="javascript:;">提&emsp;交</a>
+	        		</div>
+        		</div>
+			</div>
+</body>
+<script src="js/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src='layui/layui.js'></script>
+<script src="js/app/index.js"></script>
+<script src="layui/lay/modules/layer.js"></script>
+</html>

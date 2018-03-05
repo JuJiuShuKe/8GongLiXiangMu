@@ -1,0 +1,46 @@
+
+
+.index-header{
+	background-color: #4c78eb;
+	height: 4.083041487rem;
+    line-height: 4.083041487rem;
+    vertical-align: middle;
+}
+
+.index-header>a{
+	display: block;
+	width: 140px;
+	height: 38px;
+	margin-top: 14px;
+	background-image: url(../../img/logo2.png);
+	background-size: 100%;
+}
+
+.mui-scroll{
+	padding-top: 80px;
+}
+
+.Problem{
+	color: #000000;
+	font-size: 16px;
+}
+
+.Answer{
+	padding-left: 15px;
+}
+
+.detailsContent{
+	padding: 15px;
+}
+
+.edit-title{
+	padding: 0 15px;
+}
+
+.edit-title p{
+	font-size: 18px;
+}
+
+.editInfo{
+	
+}

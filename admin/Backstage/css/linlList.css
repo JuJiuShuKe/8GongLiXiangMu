@@ -1,0 +1,17 @@
+.box_p{
+    border: 1px solid #999999;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    margin: 10px 0; 	
+}
+.box_p > span{
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+}
+.layui-layer-content{
+	padding: 15px 20px;
+}

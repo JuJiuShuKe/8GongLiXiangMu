@@ -1,0 +1,91 @@
+*{margin:0;padding: 0};
+body{font-family: "微软雅黑"}
+.box{width: 100%;height:100%}
+.head{width: 100%;height: 65px}
+.head_cen{width: 80%;height:100%;margin:auto}
+.head_cen div{width:50%;height:55px;float:left;margin-top: 10px}
+.head_cen_left img{height: 100%}
+.head_cen_right{text-align: right;line-height:55px;font-size:16px;color: #808080;}
+.central_section{width: 100%;height:100%}
+.head_cen_right>span{font-size:18px}
+.layui-carousel img{width: 100%;height: 100%}
+.layui-carousel{margin-top: 10px}
+.information{width: 80%;height:400px;transform:translateY(-70px);margin:auto;box-shadow: 0px 10px 30px #a4bcf6;background: #fff;border-radius: 4px;}
+.indexBody-title{position: relative;padding: 20px 10px;margin: 0 1.262796336rem;text-align: center;}
+.indexBody-title:before{content: "";width: 100%;position: absolute;top: 50%;left: 0;border-top: 1px solid #ff9422;}
+.indexBody-title span{padding: 0 20px;font-size: 22px;color: #ff8500;background-color: #fff;position: relative;}
+.process{width: 100%;height: 98px}
+.process img{margin:auto;display: block;width: 100%;height:110%}
+.information-data{width: 100%;height: 190px;margin-top: 20px}
+.information-data div{width:33.3%;height: 100%;float:left;text-align: center;line-height:60px;color: #555555}
+.information-data div h1{font-size:50px;color: #003894}
+.information-data div p{font-size:15px;color: #B6B6B6}
+.order_type{width: 80%;height: 760px;background: #fff;margin:auto;}
+.order_type_title{width: 100%;height: 70px;text-align: center;line-height:40px}
+.order_type_title h1{font-size: 36px;color: inherit; }
+.order_type_title span{color: #d8d8d8;}
+.order_type_row{width: 100%;height:690px;background: #fff;margin-top: 35px;}
+.movingvideo{width:100%;height:690px;margin-top: 35px;}
+.order_type_row>div{width:17%;height: 200px;margin-top:20px;text-align: center;line-height:70px;background:#faa}
+.cont1{margin:auto;background:#EA7719;}
+.cont2{float: left;}
+.cont2{float: right;}
+.order_type_row div:nth-child(2){
+     background:#20C0A0;
+    margin-right:250px
+   
+}
+.order_type_row div:nth-child(3){
+    background:#4A90E2;
+    margin-left:250px
+    
+}
+.order_type_row div:nth-child(4){
+    background:#455E72;
+}
+.order_type_row div:nth-child(5){
+    background:#455E72;
+}
+.order_type_row div a{display: block;width: 100%;height:200px;color:#fff}
+.order_type_row div a .sign{width: 50%;height: 50%;background:#000;margin:auto;}
+.personal_move,.personal_move1,.personal_move2,.personal_move3,.personal_move4{width:730px;height: 970px;background:#F3F3F3;margin: auto;display:none;}
+.personal_move,.personal_move1,.personal_move2,.personal_move3,.personal_move4>p{text-align: center;color:#888888}
+.personal_move .indexBody-title span{padding: 0 20px;background-color: #F3F3F3;font-size: 24px}
+.all_options{width:80%;height:100px;margin:20px auto;color:#4F4F4F}
+.all_options div{width:100%;height:85px}
+.choice1 input{color:#4F4F4F}
+.choice1>p{text-align:left;}
+.choice1 select{width:100%;height:40px;padding-left:10px;margin-top:10px;color:#4F4F4F}
+.choice1 select option{line-height:20px}
+.choice1>p{font-size: 16px;color:#373737}
+.choice1>label{width:45%;height:35px;padding-left:10px;margin-top:10px;display:block;border:1px solid #AAAAAA;float:left;text-align:center;line-height:40px}
+.choice1>.lab{background:#C3ECFF}
+.choice1>input{width:100%;height:35px;padding-left:10px;margin-top:10px;}
+#choicehe{height:150px}
+.choice1 textarea{width:98%;height:100px;padding-left:10px;margin-top:10px;color:#4F4F4F}
+.choicel>input{width:100%;height:35px;padding-left:10px;margin-top:10px}
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0;
+    }
+.choice1>a{width: 80%;height:40px;background:#FF922C;margin: auto;margin-top:30px;text-align: center;font-size: 25px;color: #fff;display: block;}
+.choice1:hover a{color:#fff}
+#checkbox1{height:125px}
+.footer{width:100%;height:251px;background:#4C4D51}
+.footer1{width:80%;height: 100%;margin: auto;overflow: hidden;}
+.contact{width: 100%;height: 60px;margin-top:30px;}
+.contact>div{width:33.3%;height:100%;float: left;color:#fff;}
+.contact>div>h1{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.contact1{width: 550px;height: 30px;margin-top: 20px}
+.contact1>ul{width:100%;height:80%;list-style: none;}
+.contact1>ul>li{width:70px;height:100%;border-right:1px solid #fff;float: left;padding:0 10px;color: #A6A6A8;line-height:26px}
+.contact2{width: 550px;height: 30px;margin-top: 20px}
+.contact2>ul{width:100%;height:80%;list-style: none;}
+.contact2>ul>li{width:70px;height:100%;float: left;padding:0 10px;color: #A6A6A8;line-height:26px}
+.ending{width:100%;height: 60px;background: #38393D;text-align: center;line-height: 60px;color: #8B8B8E}
